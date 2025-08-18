@@ -15,3 +15,7 @@ resource "azurerm_resource_group" "exampleTerraformGit" {
   name     = "18-08-2025"
   location = "central india"
 }
+resource "azurerm_resource_group" "Rg_Canada" {
+  name     = "RgCanada"
+  location = "central canada"
+}
