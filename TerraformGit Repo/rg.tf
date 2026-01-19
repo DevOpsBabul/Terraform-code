@@ -9,10 +9,10 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id ="177b7e12-5f03-4f63-bcd1-ed6d1d776bff"
+  subscription_id ="b14a3699-29f5-4013-af1a-5ee5bcc0c511"
 }
 resource "azurerm_resource_group" "exampleTerraformGit" {
-  name     = "18-08-2025"
+  name     = "19-01-2026"
   location = "central india"
 }
 resource "azurerm_resource_group" "Rg_Canada" {
